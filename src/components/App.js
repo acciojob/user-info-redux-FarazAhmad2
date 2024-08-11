@@ -19,6 +19,7 @@ const App = () => {
 
   return (
     <div id="main">
+      <h1>User Information</h1>
       <form>
         <label>
           Name:
@@ -38,8 +39,8 @@ const App = () => {
         </label>
       </form>
       <p>Current values in store:</p>
-      <p>Name - {userName}</p>
-      <p>Email - {email}</p>
+      <p className="output">Name - {userName}</p>
+      <p className="output">Email - {email}</p>
     </div>
   );
 };
